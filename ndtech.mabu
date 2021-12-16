@@ -1,0 +1,43 @@
+DEFS.lumin = \
+	GLM_FORCE_CXX14 \
+	ML_DEVICE \
+	USE_GLFW=0
+
+INCS.lumin = c:/usr/localMagicLeap/include
+DEFS = \
+	NDTECH_ML \
+	NDTECH_SUPPORTS_BACK_OF_LEFT_HAND_GESTURE \
+	NDTECH_SUPPORTS_BACK_OF_RIGHT_HAND_GESTURE \
+	NDTECH_SUPPORTS_FINGER_TRACKING \
+	NDTECH_SUPPORTS_HAND_TRACKING
+
+INCS = \
+	../
+
+KIND = static
+OPTIONS = \
+	exceptions/on \
+	standard-c++/17 \
+	warn/on
+
+SRCS = \
+	BaseApp.cpp \
+	GraphicsContext.cpp \
+	StepTimer.cpp \
+  Scheduler.cpp \
+	pch.cpp
+
+USES = \
+	ml_sdk \
+	stdc++
+
+DEFS.win = \
+	ML_WINDOWS \
+	NDTECH_WIN \
+	USE_GLFW=1
+
+INCS.win = c:/usr/local64/include
+USES.win = \
+	glad \
+	glfw
+

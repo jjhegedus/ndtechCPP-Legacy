@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ndtech", "ndtech.vcxproj", "{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ML = Debug|ML
+		Debug|x64 = Debug|x64
+		Debug|Win32 = Debug|Win32
+		Release|ML = Release|ML
+		Release|x64 = Release|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Debug|ML.ActiveCfg = Debug|ML
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Debug|ML.Build.0 = Debug|ML
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Debug|x64.ActiveCfg = Debug|x64
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Debug|x64.Build.0 = Debug|x64
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Debug|Win32.Build.0 = Debug|Win32
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Release|ML.ActiveCfg = Release|ML
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Release|ML.Build.0 = Release|ML
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Release|x64.ActiveCfg = Release|x64
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Release|x64.Build.0 = Release|x64
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Release|Win32.ActiveCfg = Release|Win32
+		{8D5F3DBC-71EB-42BE-A1F0-909E56B3CE17}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB86CAEC-B10F-4248-853A-61D986961343}
+	EndGlobalSection
+EndGlobal

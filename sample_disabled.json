@@ -1,0 +1,7 @@
+{
+	"label": "ndtech",
+	"description": "ndtech is an OpenGL application using the MLSDK",
+	"projectFile": "ndtech.package",
+	"additionalFiles" : ["README.md"],
+	"initialFilesToOpen": ["main.cpp", "README.md"]
+}
